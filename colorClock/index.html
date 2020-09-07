@@ -1,0 +1,14 @@
+<!#DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Color Clock</title>
+		<script src="background.js"></script>
+	</head>
+	<body id="colorChanger">
+		<script>
+			background.body = document.getElementById('colorChanger');
+			setInterval(function _BackgroundLoop() {background.loop();}, 50);
+		</script>
+	</body>
+</html>
